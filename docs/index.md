@@ -22,5 +22,24 @@
 3. Create linear regression graphs.
 
 ## Typographical Conventions
+This guide uses the following typographical conventions:
+
+* **Bold text** indicates  buttons, menu items, or UI elements you should click
+* `Monospace text` represents formulas, functions, or text you need to type
+* *Italic text* highlights important new concepts or terms
+* > Blockquotes provide examples or sample scenarios
 
 ## Notes and Warning Messages
+Throughout the documentation, we will use message blocks to alert you to relevant information.
+
+!!! danger "Danger"
+    Specifies actions that may cause an error or cause the application to crash.
+
+!!! warning "Warning"
+    Specifies content that must be read before proceeding.
+
+!!! info "Info"
+    Indicates additional information or tips.
+
+!!! success "Success"
+    Indicates what success looks like.
