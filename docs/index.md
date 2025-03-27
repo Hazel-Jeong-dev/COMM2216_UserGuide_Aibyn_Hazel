@@ -3,7 +3,7 @@
 
  If you would like to know more about Google Sheets, please visit [Google Sheets website](https://workspace.google.com/intl/en_ca/products/sheets/).
 
-## Is this guide for you?
+## Intended Users
  This guide is for the users:  
 
   * Who have used Google Sheets for basic data entry only, and
@@ -16,7 +16,9 @@
   * A Google account
   * A basic knowledge of Google Sheets including data input, row/column insertion/deletion, and table formatting.
 
-## With this guide, you will be able to
+## Procedures Overview
+ With this guide, you will be able to  
+
 1. Sort and format data in a table.
 2. Use frequently used formulas in data analysis such as COUNTIF, AVERAGEIF, and VLOOKUP.
 3. Create linear regression graphs.
