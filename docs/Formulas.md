@@ -1,6 +1,6 @@
 # Formulas
 ## Overview
-## COUNTIF()
-## AVERAGEIF()
-## VLOOKUP()
+## COUNTIF
+## SUMIF
+## AVERAGEIF
 ## Conclusion

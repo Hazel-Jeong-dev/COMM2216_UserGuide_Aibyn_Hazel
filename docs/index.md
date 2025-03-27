@@ -20,7 +20,7 @@
  With this guide, you will be able to  
 
 1. Sort and format data in a table.
-2. Use frequently used formulas in data analysis such as COUNTIF, AVERAGEIF, and VLOOKUP.
+2. Use frequently used formulas in data analysis such as COUNTIF, SUMIF, and AVERAGEIF.
 3. Create linear regression graphs.
 
 ## Typographical Conventions
