@@ -43,19 +43,145 @@ COUNTIF function can be used when you need to count the number of cells that mee
 
 5. Press **Enter**.
 
+[IMAGE: A screenshot showing the COUNTIF function counting the number of "Sales" employees]
+
+### Using Comparison Operators with COUNTIF
+You can use comparison operators (<, >, =, <=, >=, <>) with COUNTIF to create more complex criteria:
+
+1. To count employees who are 35 or older, use: `=COUNTIF(C2:C19,">=35")`
+2. To count employees with performance ratings below 4.0, use: `=COUNTIF(E2:E19,"<4")`
+
+    !!! warning "Warning"
+        When using comparison operators, make sure to enclose the entire criterion in quotation marks, including the operator.
+
+### Using Wildcards with COUNTIF
+COUNTIF also supports wildcards for partial matching:
+
+* `*` - matches any sequence of characters
+* `?` - matches any single character
+
+For example, to count departments that start with "M", use: `=COUNTIF(A2:A19,"M*")`
+
+[IMAGE: A screenshot showing the COUNTIF function with wildcards]
+
 ## SUMIF
 SUMIF function can be used when you need to add all values in cells that meet a criterion.
 
-1. 
+ > Scenario: You need to calculate the total salary for each department.
+
+1. Click a cell where you want to display the result (e.g., H4).
+2. Type `=SUMIF()` in the cell.
+3. Type the range of cells containing your criteria (e.g., `=SUMIF(A2:A19)`).
+4. Type a comma, followed by the criterion you're looking for (e.g., `=SUMIF(A2:A19,"Sales"`).
+5. Type another comma, followed by the range of cells containing the values you want to sum (e.g., `=SUMIF(A2:A19,"Sales",D2:D19)`).
+
+    !!! info "Info"
+        The sum range must be the same size as the criteria range. If they are in different columns, make sure they have the same number of rows.
+
+6. Press **Enter**.
+
+[IMAGE: A screenshot showing the SUMIF function calculating total salary for the Sales department]
+
+### Using Multiple Criteria with SUMIFS
+If you need to sum values based on multiple criteria, you can use the SUMIFS function:
+
+1. Type `=SUMIFS()` in a cell.
+2. First, enter the sum range (e.g., `=SUMIFS(D2:D19)`).
+3. Then enter the first criteria range and its criterion (e.g., `=SUMIFS(D2:D19,A2:A19,"Sales"`).
+4. Add additional criteria ranges and criteria as needed (e.g., `=SUMIFS(D2:D19,A2:A19,"Sales",C2:C19,">30")`).
+
+    !!! success "Success"
+        This formula will sum the salaries of all Sales employees who are over 30 years old.
+
+[IMAGE: A screenshot showing the SUMIFS function with multiple criteria]
 
 ## AVERAGEIF
 AVERAGEIF function can be used when you need to calculate the average of values in cells that meet a criterion.
 
-1. 
+ > Scenario: You need to find the average performance rating for each department.
+
+1. Click a cell where you want to display the result (e.g., H5).
+2. Type `=AVERAGEIF()` in the cell.
+3. Type the range of cells containing your criteria (e.g., `=AVERAGEIF(A2:A19)`).
+4. Type a comma, followed by the criterion you're looking for (e.g., `=AVERAGEIF(A2:A19,"IT"`).
+5. Type another comma, followed by the range of cells containing the values you want to average (e.g., `=AVERAGEIF(A2:A19,"IT",E2:E19)`).
+6. Press **Enter**.
+
+[IMAGE: A screenshot showing the AVERAGEIF function calculating average performance rating for the IT department]
+
+### Using Multiple Criteria with AVERAGEIFS
+Similar to SUMIFS, you can use AVERAGEIFS to calculate averages based on multiple criteria:
+
+1. Type `=AVERAGEIFS()` in a cell.
+2. First, enter the average range (e.g., `=AVERAGEIFS(D2:D19)`).
+3. Then enter the first criteria range and its criterion (e.g., `=AVERAGEIFS(D2:D19,A2:A19,"Marketing"`).
+4. Add additional criteria ranges and criteria as needed (e.g., `=AVERAGEIFS(D2:D19,A2:A19,"Marketing",E2:E19,">=4")`).
+
+    !!! info "Info"
+        This formula will calculate the average salary of Marketing employees with a performance rating of 4.0 or higher.
+
+[IMAGE: A screenshot showing the AVERAGEIFS function with multiple criteria]
+
+## Creating a Summary Dashboard
+You can combine these functions to create a powerful summary dashboard for your data:
+
+1. Create a summary table with department names in column G.
+2. In column H, use COUNTIF to count employees per department.
+3. In column I, use SUMIF to calculate total salary per department.
+4. In column J, use AVERAGEIF to find average performance rating per department.
+5. In column K, calculate average salary by dividing total salary by employee count.
+
+Example:
+
+| Department | Employee Count | Total Salary | Avg Performance | Avg Salary |
+|:----------:|:--------------:|:------------:|:---------------:|:----------:|
+|    Sales   |        5       |    280000    |       4.26      |    56000   |
+|  Marketing |        5       |    265000    |       4.06      |    53000   |
+|     IT     |        4       |    255000    |       4.65      |    63750   |
+|     HR     |        4       |    194000    |       3.95      |    48500   |
+
+[IMAGE: A screenshot showing a complete summary dashboard using all three functions]
+
+## Advanced Usage Tips
+
+### Using Cell References for Criteria
+Instead of typing criteria directly into your formulas, you can reference cells containing your criteria:
+
+1. Type your criterion in a cell (e.g., type "Sales" in cell G3).
+2. In your formula, reference that cell instead of typing the criterion (e.g., `=COUNTIF(A2:A19,G3)`).
+
+This approach makes it easy to change criteria without editing formulas.
+
+### Creating Dynamic Reports
+You can create dropdown lists to make your reports interactive:
+
+1. Create a dropdown list with department names using **Data** > **Data validation**.
+2. Use cell references in your formulas to reference the selected department.
+3. As users change the selection in the dropdown, your formulas will automatically update.
+
+[IMAGE: A screenshot showing a dynamic report with dropdown selection]
+
+### Handling Errors
+When using these functions, you might encounter errors:
+
+* `#DIV/0!` - Occurs when dividing by zero (e.g., when no records match your criteria)
+* `#VALUE!` - Occurs when using incorrect data types
+* `#N/A` - Occurs when a reference is not available
+
+To handle these errors, you can use the IFERROR function:
+
+`=IFERROR(AVERAGEIF(A2:A19,"Finance",E2:E19),"No Finance Department")`
+
+!!! warning "Warning"
+    Always check your data for consistency before using these functions. Typos or inconsistent formatting can lead to incorrect results.
 
 ## Conclusion
 By the end of this section, you will have successfully learned the following:  
 
-- [x] How to use COUNTIF
-- [x] How to use SUMIF
-- [x] How to use AVERAGEIF
+- [x] How to use COUNTIF to count cells that meet specific criteria
+- [x] How to use SUMIF to sum values based on criteria
+- [x] How to use AVERAGEIF to calculate averages based on criteria
+- [x] How to create summary dashboards using these functions
+- [x] How to handle errors and create dynamic reports
+
+These conditional functions are essential tools for data analysis in Google Sheets. They allow you to quickly extract meaningful insights from your data without the need for complex formulas or programming. By mastering these functions, you'll be able to analyze data more efficiently and make better-informed decisions.
