@@ -18,6 +18,8 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+  features:
+    - toc.integrate
 
 markdown_extensions:
   - admonition
