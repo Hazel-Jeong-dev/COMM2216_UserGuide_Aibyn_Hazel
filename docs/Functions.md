@@ -97,7 +97,7 @@ If you need to sum values based on multiple criteria, you can use the SUMIFS fun
 
 1. Type `=SUMIFS()` in a cell.
 2. First, enter the sum range, the range of cells containing the values you want to sum (e.g., `=SUMIFS(D2:D19)`).
-3. Then enter the first criteria range and its criterion (e.g., `=SUMIFS(D2:D19,A2:A19,"Sales"`).
+3. Then enter the first criteria range and its criterion (e.g., `=SUMIFS(D2:D19,A2:A19,"Sales")`).
 4. Add additional criteria ranges and criteria as needed (e.g., `=SUMIFS(D2:D19,A2:A19,"Sales",C2:C19,">30")`).
 
     !!! success "Success"
@@ -111,7 +111,7 @@ AVERAGEIF function can be used when you need to calculate the average of values 
 1. Click a cell where you want to display the result (e.g., H5).
 2. Type `=AVERAGEIF()` in the cell.
 3. Type the range of cells containing your criteria (e.g., `=AVERAGEIF(A2:A19)`).
-4. Type a comma, followed by the criterion you're looking for (e.g., `=AVERAGEIF(A2:A19,"IT"`).
+4. Type a comma, followed by the criterion you're looking for (e.g., `=AVERAGEIF(A2:A19,"IT")`).
 5. Type another comma, followed by the range of cells containing the values you want to average (e.g., `=AVERAGEIF(A2:A19,"IT",E2:E19)`).
 
     !!! warning "Warning"
@@ -131,7 +131,7 @@ If you need to calculate averages based on multiple criteria, you can use the AV
 
 1. Type `=AVERAGEIFS()` in a cell.
 2. First, enter the average range, the range of cells containing the values you want to average (e.g., `=AVERAGEIFS(D2:D19)`).
-3. Then enter the first criteria range and its criterion (e.g., `=AVERAGEIFS(D2:D19,A2:A19,"Marketing"`).
+3. Then enter the first criteria range and its criterion (e.g., `=AVERAGEIFS(D2:D19,A2:A19,"Marketing")`).
 4. Add additional criteria ranges and criteria as needed (e.g., `=AVERAGEIFS(D2:D19,A2:A19,"Marketing",E2:E19,">=4")`).
 
     !!! success "Success"
