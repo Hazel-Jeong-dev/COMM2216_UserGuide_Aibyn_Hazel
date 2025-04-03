@@ -156,7 +156,7 @@ Data validation helps maintain data integrity:
 2. Click on **Data** > **Data validation**.
 3. Set "Criteria" to "Drop-Down".
 4. Enter valid categories in each line.
-5. Choose what happens when invalid data is entered.
+5. See what happens when invalid data is entered.
 6. Click **Save**.
 
     !!! warning "Warning"
