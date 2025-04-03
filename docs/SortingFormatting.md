@@ -108,13 +108,13 @@ Google Sheets offers various number formatting options to display your data appr
 
 1. Select the cells you want to format.
 2. Click on **Format** > **Number**.
-3. Choose from options such as:
-   - **Number**: General number format with specified decimal places
-   - **Percent**: Displays values as percentages
-   - **Currency**: Shows values with currency symbols
-   - **Date**: Various date formats
-   - **Time**: Various time formats
-   - **Custom number format**: Create your own format
+3. Choose from options such as:  
+    - **Number**: General number format with specified decimal places
+    - **Percent**: Displays values as percentages
+    - **Currency**: Shows values with currency symbols
+    - **Date**: Various date formats
+    - **Time**: Various time formats
+    - **Custom number format**: Create your own format
 
     !!! info "Info"
         For dates in our sample data, select column D and apply a date format that matches your preference (e.g., MM/DD/YYYY).
