@@ -38,7 +38,7 @@ The first step in creating a linear regression graph is to create a scatter plot
     !!! warning "Warning"
         If the axes are reversed, you can change them by clicking on the **Series** section in the Chart Editor and adjusting the X-axis and Y-axis data ranges.
 
-[IMAGE: A screenshot showing the scatter plot of Sales vs. Marketing Spend data points without a trendline]
+![Creating a Scatter Plot](./images_and_gifs/ScatterPlot.gif)
 
 ## Adding a Linear Regression Trendline
 Once you have created your scatter plot, you can add a linear regression trendline:
@@ -53,7 +53,7 @@ Once you have created your scatter plot, you can add a linear regression trendli
     !!! info "Info"
         Google Sheets offers other trendline types such as polynomial, exponential, and logarithmic. For a simple linear regression, select "Linear".
 
-[IMAGE: A screenshot showing the scatter plot with a linear trendline added]
+![Adding a Trendline](./images_and_gifs/AddTrendline.gif)
 
 ## Displaying the Regression Equation and R² Value
 To make your linear regression graph more informative, you can display the equation and R² value:
@@ -66,7 +66,7 @@ To make your linear regression graph more informative, you can display the equat
     !!! info "Info"
         The R² value (coefficient of determination) indicates how well the data fits the regression line. Values closer to 1 indicate a better fit.
 
-[IMAGE: A screenshot showing the scatter plot with trendline, equation, and R² value displayed]
+![Displaying Equation and R²](./images_and_gifs/EquationR2.gif)
 
 ## Customizing Your Linear Regression Graph
 You can further customize your graph to make it more visually appealing and informative:
@@ -88,7 +88,7 @@ In the Chart Editor, under the **Customize** tab, you can modify:
 1. Under **Chart & axis titles**, select **Horizontal axis title** or **Vertical axis title**.
 2. Enter appropriate labels such as "Marketing Spend ($)" and "Sales ($)".
 
-[IMAGE: A screenshot showing the fully customized linear regression graph with proper titles and labels]
+![Customizing the Graph](./images_and_gifs/CustomizeGraph.gif)
 
 ## Interpreting the Linear Regression Results
 Understanding what the regression equation means is crucial for making data-driven decisions:
@@ -134,6 +134,8 @@ You can use your linear regression model to make predictions:
 
     !!! warning "Warning"
         Be cautious when extrapolating far beyond your data range, as the relationship may not remain linear outside the observed range.
+
+![Forecasting with Regression](./images_and_gifs/Forecasting.gif)
 
 ## Conclusion
 By the end of this section, you will have successfully learned the following:  
