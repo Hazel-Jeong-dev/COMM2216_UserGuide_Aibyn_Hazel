@@ -23,8 +23,8 @@ theme:
 
 nav:
   - Home: "index.md"
-  - Sorting & Formatting: "SortingFormatting.md"
   - Functions: "Functions.md"
+  - Sorting & Formatting: "SortingFormatting.md"
   - Linear Regression Graphs: "LinearRegression.md"
   - Troubleshooting: "Troubleshooting.md"
   - Glossary: "Glossary.md"

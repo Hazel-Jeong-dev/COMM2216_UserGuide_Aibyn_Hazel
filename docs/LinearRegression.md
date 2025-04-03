@@ -41,7 +41,7 @@ The first step in creating a linear regression graph is to create a scatter plot
 ![Creating a Scatter Plot](./images_and_gifs/ScatterPlot.gif)
 
 ## Adding a Linear Regression Trendline
-Once you have created your scatter plot, you can add a linear regression trendline:
+Once you have created your scatter plot, you can add a linear regression trendline.
 
 1. With your chart selected, click on the three dots (⋮) in the upper right corner of the chart.
 2. Select **Edit chart** from the dropdown menu.
@@ -56,7 +56,7 @@ Once you have created your scatter plot, you can add a linear regression trendli
 ![Adding a Trendline](./images_and_gifs/AddTrendline.gif)
 
 ## Displaying the Regression Equation and R² Value
-To make your linear regression graph more informative, you can display the equation and R² value:
+To make your linear regression graph more informative, you can display the equation and R² value.
 
 1. In the Chart Editor, under the **Customize** tab and **Series** section, make sure **Trendline** is expanded.
 2. Check the box next to **Label**.
@@ -69,7 +69,7 @@ To make your linear regression graph more informative, you can display the equat
 ![Displaying Equation and R²](./images_and_gifs/EquationR2.gif)
 
 ## Customizing Your Linear Regression Graph
-You can further customize your graph to make it more visually appealing and informative:
+You can further customize your graph to make it more visually appealing and informative.
 
 ### Modifying Chart Elements
 In the Chart Editor, under the **Customize** tab, you can modify:
@@ -91,10 +91,10 @@ In the Chart Editor, under the **Customize** tab, you can modify:
 ![Customizing the Graph](./images_and_gifs/CustomizeGraph.gif)
 
 ## Interpreting the Linear Regression Results
-Understanding what the regression equation means is crucial for making data-driven decisions:
+Understanding what the regression equation means is crucial for making data-driven decisions.
 
 ### The Regression Equation
-The linear regression equation has the form: y = mx + b
+The linear regression equation has the form: y = mx + b.
 
 * y is the dependent variable (Sales in our example)
 * x is the independent variable (Marketing Spend)
@@ -102,13 +102,13 @@ The linear regression equation has the form: y = mx + b
 * b is the y-intercept (the value of y when x is 0)
 
 ### Practical Interpretation
-In our example, if the equation is y = 8.5x + 2500:
+In our example, if the equation is y = 8.5x + 2500.
 
 * For every additional $1 spent on marketing, sales increase by $8.5
 * If no money is spent on marketing (x = 0), the baseline sales would be $2,500
 
 ### Understanding R² Value
-The R² value tells you how much of the variation in y is explained by x:
+The R² value tells you how much of the variation in y is explained by x.
 
 * R² = 0.95 means that 95% of the variation in sales can be explained by marketing spend
 * The remaining 5% is due to other factors not included in the model
@@ -117,7 +117,7 @@ The R² value tells you how much of the variation in y is explained by x:
     A high R² value (above 0.7) generally indicates a strong relationship between your variables, suggesting that your linear regression model is a good fit for the data.
 
 ## Using the Regression for Forecasting
-You can use your linear regression model to make predictions:
+You can use your linear regression model to make predictions.
 
 ### Using the Equation Directly
 1. To predict Sales for a new Marketing Spend value:
