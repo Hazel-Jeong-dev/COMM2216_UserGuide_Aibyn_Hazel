@@ -22,6 +22,8 @@ In this section, we will provide a step-by-step guide for creating linear regres
 ## Creating a Scatter Plot
 The first step in creating a linear regression graph is to create a scatter plot of your data.
 
+![Creating a Scatter Plot](./images_and_gifs/ScatterPlot.gif)
+
 1. Select the data you want to include in your graph (e.g., select columns B and C to analyze the relationship between Marketing Spend and Sales).
 2. Click on **Insert** in the top menu.
 3. Select **Chart** from the dropdown menu.
@@ -38,10 +40,10 @@ The first step in creating a linear regression graph is to create a scatter plot
     !!! warning "Warning"
         If the axes are reversed, you can change them by clicking on the **Series** section in the Chart Editor and adjusting the X-axis and Y-axis data ranges.
 
-![Creating a Scatter Plot](./images_and_gifs/ScatterPlot.gif)
-
 ## Adding a Linear Regression Trendline
 Once you have created your scatter plot, you can add a linear regression trendline.
+
+![Adding a Trendline](./images_and_gifs/AddTrendline.gif)
 
 1. With your chart selected, click on the three dots (⋮) in the upper right corner of the chart.
 2. Select **Edit chart** from the dropdown menu.
@@ -53,10 +55,10 @@ Once you have created your scatter plot, you can add a linear regression trendli
     !!! info "Info"
         Google Sheets offers other trendline types such as polynomial, exponential, and logarithmic. For a simple linear regression, select "Linear".
 
-![Adding a Trendline](./images_and_gifs/AddTrendline.gif)
-
 ## Displaying the Regression Equation and R² Value
 To make your linear regression graph more informative, you can display the equation and R² value.
+
+![Displaying Equation and R²](./images_and_gifs/EquationR2.gif)
 
 1. In the Chart Editor, under the **Customize** tab and **Series** section, make sure **Trendline** is expanded.
 2. Check the box next to **Label**.
@@ -65,8 +67,6 @@ To make your linear regression graph more informative, you can display the equat
 
     !!! info "Info"
         The R² value (coefficient of determination) indicates how well the data fits the regression line. Values closer to 1 indicate a better fit.
-
-![Displaying Equation and R²](./images_and_gifs/EquationR2.gif)
 
 ## Customizing Your Linear Regression Graph
 You can further customize your graph to make it more visually appealing and informative.
@@ -85,10 +85,11 @@ In the Chart Editor, under the **Customize** tab, you can modify:
 3. Enter a descriptive title such as "Relationship Between Marketing Spend and Sales".
 
 ### Labeling Axes
-1. Under **Chart & axis titles**, select **Horizontal axis title** or **Vertical axis title**.
-2. Enter appropriate labels such as "Marketing Spend ($)" and "Sales ($)".
 
 ![Customizing the Graph](./images_and_gifs/CustomizeGraph.gif)
+
+1. Under **Chart & axis titles**, select **Horizontal axis title** or **Vertical axis title**.
+2. Enter appropriate labels such as "Marketing Spend ($)" and "Sales ($)".
 
 ## Interpreting the Linear Regression Results
 Understanding what the regression equation means is crucial for making data-driven decisions.
@@ -120,22 +121,24 @@ The R² value tells you how much of the variation in y is explained by x.
 You can use your linear regression model to make predictions.
 
 ### Using the Equation Directly
-1. To predict Sales for a new Marketing Spend value:
-   - Create a new cell with your Marketing Spend value (e.g., $3,500)
-   - In another cell, use the equation from your trendline
-   - For example, if your equation is y = 8.5x + 2500, you would enter: `=8.5*3500+2500`
-   - This will give you the predicted Sales value
+![Forecasting with Regression](./images_and_gifs/Forecasting.gif)
+
+To predict Sales for a new Marketing Spend value:  
+
+   1. Create a new cell with your Marketing Spend value (e.g., $3,500)
+   2. In another cell, use the equation from your trendline
+   3. For example, if your equation is y = 8.5x + 2500, you would enter: `=8.5*3500+2500`
+   4. This will give you the predicted Sales value
 
 ### Using the FORECAST Function
-1. Alternatively, you can use the FORECAST function:
+Alternatively, you can use the FORECAST function.  
+
    - Syntax: `=FORECAST(x, known_y's, known_x's)`
    - Example: `=FORECAST(3500, B2:B13, C2:C13)`
    - This will predict the Sales value for a Marketing Spend of $3,500
 
     !!! warning "Warning"
         Be cautious when extrapolating far beyond your data range, as the relationship may not remain linear outside the observed range.
-
-![Forecasting with Regression](./images_and_gifs/Forecasting.gif)
 
 ## Conclusion
 By the end of this section, you will have successfully learned the following:  

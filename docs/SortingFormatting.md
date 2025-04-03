@@ -23,6 +23,8 @@ Sorting data allows you to organize information in a meaningful way, making patt
 ### Basic Sorting
 > Scenario: You need to sort products by their sales figures from highest to lowest.
 
+![Basic Sorting](./images_and_gifs/BasicSort.gif)
+
 1. Select the entire data range (A1:E11 in our example, including headers).
 2. Click on **Data** in the top menu.
 3. Select **Sort range** from the dropdown menu.
@@ -35,10 +37,10 @@ Sorting data allows you to organize information in a meaningful way, making patt
 6. Choose the sort order (A→Z for ascending, Z→A for descending).
 7. Click **Sort**.
 
-![Basic Sorting](./images_and_gifs/BasicSort.gif)
-
 ### Multi-Level Sorting
 > Scenario: You need to sort products first by category and then by sales within each category.
+
+![Multi-Level Sorting](./images_and_gifs/MultiLevelSort.gif)
 
 1. Select the entire data range.
 2. Click on **Data** > **Sort range**.
@@ -50,8 +52,6 @@ Sorting data allows you to organize information in a meaningful way, making patt
 
     !!! success "Success"
         Your data is now organized by category alphabetically, with products in each category sorted from highest to lowest sales.
-
-![Multi-Level Sorting](./images_and_gifs/MultiLevelSort.gif)
 
 ### Sorting by Color
 If you've applied conditional formatting or manually colored cells, you can sort by color.
@@ -72,6 +72,8 @@ Proper formatting enhances readability and helps highlight important information
 ### Basic Formatting
 > Scenario: You want to format the sales figures as currency and highlight the "In Stock" status.
 
+![Basic Formatting](./images_and_gifs/BasicFormatting.gif)
+
 1. Select the Sales column (C2:C11).
 2. Click on **Format** in the top menu.
 3. Select **Number** > **Currency**.
@@ -88,10 +90,10 @@ Proper formatting enhances readability and helps highlight important information
 7. Click **Done**.
 8. Repeat steps 5-7, but this time set the condition to "Text is exactly" with "No" and choose a red fill color.
 
-![Basic Formatting](./images_and_gifs/BasicFormatting.gif)
-
 ### Creating Alternating Row Colors
 Alternating row colors can make large datasets easier to read.
+
+![Alternating Row Colors](./images_and_gifs/AlternatingColors.gif)
 
 1. Select the entire data range (including headers).
 2. Click on **Format** > **Alternating colors**.
@@ -100,8 +102,6 @@ Alternating row colors can make large datasets easier to read.
 
     !!! info "Info"
         You can customize the header color, odd row color, and even row color separately by clicking on each element in the sidebar.
-
-![Alternating Row Colors](./images_and_gifs/AlternatingColors.gif)
 
 ### Number Formatting Options
 Google Sheets offers various number formatting options to display your data appropriately.
@@ -123,6 +123,9 @@ Google Sheets offers various number formatting options to display your data appr
 You can combine sorting and formatting techniques to create an effective dashboard.
 
 ### Building a Category Summary
+
+![Creating a Dashboard](./images_and_gifs/Dashboard.gif)
+
 1. Create a summary table in a new location (e.g., G1:I4).
 2. Add headers: "Category", "Total Sales", "Items in Stock".
 3. List unique categories in column G.
@@ -133,12 +136,12 @@ You can combine sorting and formatting techniques to create an effective dashboa
 6. Format the Total Sales column as currency.
 7. Apply conditional formatting to highlight categories with high sales.
 
-![Creating a Dashboard](./images_and_gifs/Dashboard.gif)
-
 ## Advanced Formatting Techniques
 
 ### Custom Number Formats
 You can create custom number formats for specific needs.
+
+![Custom Number Formats](./images_and_gifs/CustomFormats.gif)
 
 1. Select the cells to format.
 2. Click on **Format** > **Number** > **Custom number format**.
@@ -147,10 +150,10 @@ You can create custom number formats for specific needs.
    - `0.0%` to show percentages with one decimal place
    - `[>1000]"High";"Low"` to display "High" for values over 1000 and "Low" for others
 
-![Custom Number Formats](./images_and_gifs/CustomFormats.gif)
-
 ### Using Data Validation
 Data validation helps maintain data integrity.
+
+![Data Validation](./images_and_gifs/DataValidation.gif)
 
 1. Select a column where you want to restrict input (e.g., the Category column).
 2. Click on **Data** > **Data validation**.
@@ -161,8 +164,6 @@ Data validation helps maintain data integrity.
 
     !!! warning "Warning"
         Apply data validation before entering data to ensure consistency throughout your spreadsheet.
-
-![Data Validation](./images_and_gifs/DataValidation.gif)
 
 ## Conclusion
 By the end of this section, you will have successfully learned the following:  

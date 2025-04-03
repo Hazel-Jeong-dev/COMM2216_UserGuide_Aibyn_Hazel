@@ -29,6 +29,8 @@ In this section, we will provide a step-by-step guide for you to use these three
 COUNTIF function can be used when you need to count the number of cells that meet a criterion.
  > Scenario: You need to count the number of employees in Sales department.
 
+![COUNTIF demo](./images_and_gifs/COUNTIF.gif)
+
 1. Click a cell where you want to display the result (e.g., H3).
 2. Type `=COUNTIF()` in the cell.
 3. Type the range of cells containing your criteria (e.g., `=COUNTIF(A2:A19)`).
@@ -37,8 +39,6 @@ COUNTIF function can be used when you need to count the number of cells that mee
 
     !!! success "Success"
         This formula will count the number of employees in Sales department.
-
-![COUNTIF demo](./images_and_gifs/COUNTIF.gif)
 
 ### Using Comparison Operators with COUNTIF
 You can use comparison operators (<, >, =, <=, >=, <>) with COUNTIF to create more complex criteria.
@@ -74,6 +74,8 @@ SUMIF function can be used when you need to add all values in cells that meet a 
 
  > Scenario: You need to calculate the total salary of Sales department.
 
+![SUMIF demo](./images_and_gifs/SUMIF.gif)
+
 1. Click a cell where you want to display the result (e.g., H4).
 2. Type `=SUMIF()` in the cell.
 3. Type the range of cells containing your criteria (e.g., `=SUMIF(A2:A19)`).
@@ -87,8 +89,6 @@ SUMIF function can be used when you need to add all values in cells that meet a 
 
     !!! success "Success"
         This formula will sum the salaries of all employees in Sales department.
-
-![SUMIF demo](./images_and_gifs/SUMIF.gif)
 
 ### Using Multiple Criteria with SUMIFS
 If you need to sum values based on multiple criteria, you can use the SUMIFS function.
@@ -108,6 +108,8 @@ AVERAGEIF function can be used when you need to calculate the average of values 
 
  > Scenario: You need to find the average performance rating of IT department.
 
+![AVERAGEIF demo](./images_and_gifs/AVERAGEIF.gif)
+
 1. Click a cell where you want to display the result (e.g., H5).
 2. Type `=AVERAGEIF()` in the cell.
 3. Type the range of cells containing your criteria (e.g., `=AVERAGEIF(A2:A19)`).
@@ -121,8 +123,6 @@ AVERAGEIF function can be used when you need to calculate the average of values 
 
     !!! success "Success"
         This formula will calculate the average performance rating of IT employees.
-
-![AVERAGEIF demo](./images_and_gifs/AVERAGEIF.gif)
 
 ### Using Multiple Criteria with AVERAGEIFS
 If you need to calculate averages based on multiple criteria, you can use the AVERAGEIFS function.
