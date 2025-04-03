@@ -54,7 +54,7 @@ Sorting data allows you to organize information in a meaningful way, making patt
 ![Multi-Level Sorting](./images_and_gifs/MultiLevelSort.gif)
 
 ### Sorting by Color
-If you've applied conditional formatting or manually colored cells, you can sort by color:
+If you've applied conditional formatting or manually colored cells, you can sort by color.
 
 1. Select the data range.
 2. Click on **Data** > **Create a filter**.
@@ -91,7 +91,7 @@ Proper formatting enhances readability and helps highlight important information
 ![Basic Formatting](./images_and_gifs/BasicFormatting.gif)
 
 ### Creating Alternating Row Colors
-Alternating row colors can make large datasets easier to read:
+Alternating row colors can make large datasets easier to read.
 
 1. Select the entire data range (including headers).
 2. Click on **Format** > **Alternating colors**.
@@ -104,7 +104,7 @@ Alternating row colors can make large datasets easier to read:
 ![Alternating Row Colors](./images_and_gifs/AlternatingColors.gif)
 
 ### Number Formatting Options
-Google Sheets offers various number formatting options to display your data appropriately:
+Google Sheets offers various number formatting options to display your data appropriately.
 
 1. Select the cells you want to format.
 2. Click on **Format** > **Number**.
@@ -120,7 +120,7 @@ Google Sheets offers various number formatting options to display your data appr
         For dates in our sample data, select column D and apply a date format that matches your preference (e.g., MM/DD/YYYY).
 
 ## Creating a Formatted Dashboard
-You can combine sorting and formatting techniques to create an effective dashboard:
+You can combine sorting and formatting techniques to create an effective dashboard.
 
 ### Building a Category Summary
 1. Create a summary table in a new location (e.g., G1:I4).
@@ -138,7 +138,7 @@ You can combine sorting and formatting techniques to create an effective dashboa
 ## Advanced Formatting Techniques
 
 ### Custom Number Formats
-You can create custom number formats for specific needs:
+You can create custom number formats for specific needs.
 
 1. Select the cells to format.
 2. Click on **Format** > **Number** > **Custom number format**.
@@ -150,7 +150,7 @@ You can create custom number formats for specific needs:
 ![Custom Number Formats](./images_and_gifs/CustomFormats.gif)
 
 ### Using Data Validation
-Data validation helps maintain data integrity:
+Data validation helps maintain data integrity.
 
 1. Select a column where you want to restrict input (e.g., the Category column).
 2. Click on **Data** > **Data validation**.
