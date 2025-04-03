@@ -34,9 +34,6 @@ This guide uses the following typographical conventions:
 ## Notes and Warning Messages
 Throughout the documentation, we will use message blocks to alert you to relevant information.
 
-!!! danger "Danger"
-    Specifies actions that may cause an error or cause the application to crash.
-
 !!! warning "Warning"
     Specifies content that must be read before proceeding.
 
