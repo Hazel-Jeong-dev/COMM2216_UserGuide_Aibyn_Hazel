@@ -25,9 +25,9 @@ Sorting data allows you to organize information in a meaningful way, making patt
 
 ![Basic Sorting](./images_and_gifs/BasicSort.gif)
 
-1. Select the entire data range (A1:E11 in our example, including headers).
+1. Select the entire data [range](./Glossary.md) (A1:E11 in our example, including headers).
 2. Click on **Data** in the top menu.
-3. Select **Sort range** from the dropdown menu.
+3. Select **[Sort range](./Glossary.md)** from the dropdown menu.
 
     !!! info "Info"
         You can also right-click on the selected range and choose **Sort range** from the context menu.
@@ -37,7 +37,7 @@ Sorting data allows you to organize information in a meaningful way, making patt
 6. Choose the sort order (A→Z for ascending, Z→A for descending).
 7. Click **Sort**.
 
-### Multi-Level Sorting
+### [Multi-Level Sorting](./Glossary.md)
 > Scenario: You need to sort products first by category and then by sales within each category.
 
 ![Multi-Level Sorting](./images_and_gifs/MultiLevelSort.gif)
@@ -54,11 +54,11 @@ Sorting data allows you to organize information in a meaningful way, making patt
         Your data is now organized by category alphabetically, with products in each category sorted from highest to lowest sales.
 
 ### Sorting by Color
-If you've applied conditional formatting or manually colored cells, you can sort by color.
+If you've applied [conditional formatting](./Glossary.md) or manually colored cells, you can sort by color.
 
 1. Select the data range.
 2. Click on **Data** > **Create a filter**.
-3. Click the filter button (funnel icon) in the header of the column you want to sort.
+3. Click the [filter](./Glossary.md) button (funnel icon) in the header of the column you want to sort.
 4. Select **Sort by color**.
 5. Choose either **Fill color** or **Text color**.
 6. Select the color you want to prioritize in the sorting.
@@ -91,7 +91,7 @@ Proper formatting enhances readability and helps highlight important information
 8. Repeat steps 5-7, but this time set the condition to "Text is exactly" with "No" and choose a red fill color.
 
 ### Creating Alternating Row Colors
-Alternating row colors can make large datasets easier to read.
+[Alternating row colors](./Glossary.md) can make large datasets easier to read.
 
 ![Alternating Row Colors](./images_and_gifs/AlternatingColors.gif)
 
@@ -151,7 +151,7 @@ You can create custom number formats for specific needs.
    - `[>1000]"High";"Low"` to display "High" for values over 1000 and "Low" for others
 
 ### Using Data Validation
-Data validation helps maintain data integrity.
+[Data validation](./Glossary.md) helps maintain data integrity.
 
 ![Data Validation](./images_and_gifs/DataValidation.gif)
 
@@ -170,8 +170,8 @@ By the end of this section, you will have successfully learned the following:
 
 - [x] How to sort data using single and multiple criteria
 - [x] How to apply number formatting to different types of data
-- [x] How to use conditional formatting to highlight important information
-- [x] How to create alternating row colors for better readability
+- [x] How to use [conditional formatting](./Glossary.md) to highlight important information
+- [x] How to create [alternating row colors](./Glossary.md) for better readability
 - [x] How to build a formatted summary dashboard
 - [x] How to implement advanced formatting techniques
 

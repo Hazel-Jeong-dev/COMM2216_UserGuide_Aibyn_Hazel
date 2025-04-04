@@ -1,6 +1,6 @@
 # Linear Regression Graphs
 ## Overview
-Linear regression is a powerful statistical tool that helps identify relationships between variables. Google Sheets makes it easy to create linear regression graphs that visualize these relationships and calculate trend lines. This feature is particularly useful for forecasting, analyzing correlations, and making data-driven decisions.
+[Linear regression](./Glossary.md) is a powerful statistical tool that helps identify relationships between variables. Google Sheets makes it easy to create linear regression graphs that visualize these relationships and calculate trend lines. This feature is particularly useful for forecasting, analyzing correlations, and making data-driven decisions.
 
 In this section, we will provide a step-by-step guide for creating linear regression graphs in Google Sheets. To help you follow each step better, we will use the sample data below for this guide. To use this sample data to follow the guide, simply copy the table below and paste it to your Google Sheets.
 
@@ -20,7 +20,7 @@ In this section, we will provide a step-by-step guide for creating linear regres
 |   12  |   27500   |         3100        |
 
 ## Creating a Scatter Plot
-The first step in creating a linear regression graph is to create a scatter plot of your data.
+The first step in creating a linear regression graph is to create a [scatter plot](./Glossary.md) of your data.
 
 ![Creating a Scatter Plot](./images_and_gifs/ScatterPlot.gif)
 
@@ -41,7 +41,7 @@ The first step in creating a linear regression graph is to create a scatter plot
         If the axes are reversed, you can change them by clicking on the **Series** section in the Chart Editor and adjusting the X-axis and Y-axis data ranges.
 
 ## Adding a Linear Regression Trendline
-Once you have created your scatter plot, you can add a linear regression trendline.
+Once you have created your scatter plot, you can add a linear regression [trendline](./Glossary.md).
 
 ![Adding a Trendline](./images_and_gifs/AddTrendline.gif)
 
@@ -56,7 +56,7 @@ Once you have created your scatter plot, you can add a linear regression trendli
         Google Sheets offers other trendline types such as polynomial, exponential, and logarithmic. For a simple linear regression, select "Linear".
 
 ## Displaying the Regression Equation and R² Value
-To make your linear regression graph more informative, you can display the equation and R² value.
+To make your linear regression graph more informative, you can display the equation and [R² value](./Glossary.md).
 
 ![Displaying Equation and R²](./images_and_gifs/EquationR2.gif)
 
@@ -143,10 +143,10 @@ Alternatively, you can use the FORECAST function.
 ## Conclusion
 By the end of this section, you will have successfully learned the following:  
 
-- [x] How to create a scatter plot in Google Sheets
-- [x] How to add a linear regression trendline to your chart
-- [x] How to display and interpret the regression equation and R² value
-- [x] How to customize your linear regression graph
+- [x] How to create a [scatter plot](./Glossary.md) in Google Sheets
+- [x] How to add a [linear regression](./Glossary.md) [trendline](./Glossary.md) to your chart
+- [x] How to display and interpret the regression equation and [R² value](./Glossary.md)
+- [x] How to customize your [linear regression](./Glossary.md) graph
 - [x] How to use your regression model for forecasting
 
-Linear regression is a fundamental tool for data analysis that helps you understand relationships between variables and make predictions based on those relationships. With Google Sheets, you can easily create and customize linear regression graphs to gain insights from your data. 
+[Linear regression](./Glossary.md) is a fundamental tool for data analysis that helps you understand relationships between variables and make predictions based on those relationships. With Google Sheets, you can easily create and customize linear regression graphs to gain insights from your data. 

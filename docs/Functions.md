@@ -1,6 +1,6 @@
 # Functions
 ## Overview
-Google Sheets has become a powerful tool for data analysis, largely due to its extensive library of embedded functions. Specifically, COUNTIF, SUMIF, and AVERAGEIF are three essential functions that data analysts and spreadsheet users rely on for quick and efficient data analysis.
+Google Sheets has become a powerful tool for data analysis, largely due to its extensive library of embedded [functions](./Glossary.md). Specifically, [COUNTIF](./Glossary.md), [SUMIF](./Glossary.md), and [AVERAGEIF](./Glossary.md) are three essential functions that data analysts and spreadsheet users rely on for quick and efficient data analysis.
 
 In this section, we will provide a step-by-step guide for you to use these three powerful functions. To help you follow each step better, we will use the data below for this guide. To use this sample data to follow the guide, simply copy the table below and paste it to your Google Sheets.
 
@@ -26,14 +26,14 @@ In this section, we will provide a step-by-step guide for you to use these three
 |  Marketing |   Emma   |  33 |  54000 |          4         |
 
 ## COUNTIF
-COUNTIF function can be used when you need to count the number of cells that meet a criterion.
+[COUNTIF](./Glossary.md) function can be used when you need to count the number of cells that meet a criterion.
  > Scenario: You need to count the number of employees in Sales department.
 
 ![COUNTIF demo](./images_and_gifs/COUNTIF.gif)
 
 1. Click a cell where you want to display the result (e.g., H3).
 2. Type `=COUNTIF()` in the cell.
-3. Type the range of cells containing your criteria (e.g., `=COUNTIF(A2:A19)`).
+3. Type the [range](./Glossary.md) of cells containing your criteria (e.g., `=COUNTIF(A2:A19)`).
 4. Type a comma, followed by the criterion you're looking for (e.g., `=COUNTIF(A2:A19,"Sales")`).
 5. Press **Enter**.
 
@@ -50,7 +50,7 @@ You can use comparison operators (<, >, =, <=, >=, <>) with COUNTIF to create mo
         When using comparison operators, make sure to enclose the entire criterion in quotation marks, including the operator.
 
 ### Using Wildcards with COUNTIF
-COUNTIF also supports wildcards for partial matching.
+COUNTIF also supports [wildcards](./Glossary.md) for partial matching.
 
 * `*` - matches any sequence of characters
 * `?` - matches any single character
@@ -70,7 +70,7 @@ If you need to count the number of cells based on multiple criteria, you can use
 
 
 ## SUMIF
-SUMIF function can be used when you need to add all values in cells that meet a criterion.
+[SUMIF](./Glossary.md) function can be used when you need to add all values in cells that meet a criterion.
 
  > Scenario: You need to calculate the total salary of Sales department.
 
@@ -104,7 +104,7 @@ If you need to sum values based on multiple criteria, you can use the SUMIFS fun
         This formula will sum the salaries of all Sales employees who are over 30 years old.
 
 ## AVERAGEIF
-AVERAGEIF function can be used when you need to calculate the average of values in cells that meet a criterion.
+[AVERAGEIF](./Glossary.md) function can be used when you need to calculate the average of values in cells that meet a criterion.
 
  > Scenario: You need to find the average performance rating of IT department.
 
@@ -159,7 +159,7 @@ Example:
 ## Advanced Usage Tips
 
 ### Using Cell References for Criteria
-Instead of typing criteria directly into your formulas, you can reference cells containing your criteria:
+Instead of typing criteria directly into your formulas, you can [reference cells](./Glossary.md) containing your criteria:
 
 1. Type your criterion in a cell (e.g., type "Sales" in cell G3).
 2. In your formula, reference that cell instead of typing the criterion (e.g., `=COUNTIF(A2:A19,G3)` instead of `=COUNTIF(A2:A19,"Sales")`).
@@ -183,10 +183,10 @@ To handle these errors, you can use the IFERROR function like the example below.
 ## Conclusion
 By the end of this section, you will have successfully learned the following:  
 
-- [x] How to use COUNTIF to count cells that meet specific criteria
-- [x] How to use SUMIF to sum values based on criteria
-- [x] How to use AVERAGEIF to calculate averages based on criteria
-- [x] How to create summary dashboards using these functions
+- [x] How to use [COUNTIF](./Glossary.md) to count cells that meet specific criteria
+- [x] How to use [SUMIF](./Glossary.md) to sum values based on criteria
+- [x] How to use [AVERAGEIF](./Glossary.md) to calculate averages based on criteria
+- [x] How to create summary dashboards using these [functions](./Glossary.md)
 - [x] How to handle errors
 
 These conditional functions are essential tools for data analysis in Google Sheets. They allow you to quickly extract meaningful insights from your data without the need for complex formulas or programming. By mastering these functions, you'll be able to analyze data more efficiently and make better-informed decisions.

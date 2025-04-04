@@ -20,8 +20,8 @@
  With this guide, you will be able to  
 
 1. Sort and format data in a table.
-2. Use frequently used formulas in data analysis such as COUNTIF, SUMIF, and AVERAGEIF.
-3. Create linear regression graphs.
+2. Use frequently used [functions](./Glossary.md) in data analysis such as COUNTIF, SUMIF, and AVERAGEIF.
+3. Create [linear regression](./Glossary.md) graphs.
 
 ## Typographical Conventions
 This guide uses the following typographical conventions:
@@ -30,6 +30,7 @@ This guide uses the following typographical conventions:
 * `Monospace text` represents formulas, functions, or text you need to type
 * *Italic text* highlights important new concepts or terms
 * > Blockquotes provide examples or sample scenarios
+* [Highlighted text](./Glossary.md) leads to our Glossary page or other helpful websites
 
 ## Notes and Warning Messages
 Throughout the documentation, we will use message blocks to alert you to relevant information.
