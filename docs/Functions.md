@@ -2,7 +2,7 @@
 ## Overview
 Google Sheets has become a powerful tool for data analysis, largely due to its extensive library of embedded functions. Specifically, COUNTIF, SUMIF, and AVERAGEIF are three essential functions that data analysts and spreadsheet users rely on for quick and efficient data analysis.
 
-In this section, we will provide a step-by-step guide for you to use these three powerful functions. To help you follow each step better, we will use the data below for this guide.
+In this section, we will provide a step-by-step guide for you to use these three powerful functions. To help you follow each step better, we will use the data below for this guide. To use this sample data to follow the guide, simply copy the table below and paste it to your Google Sheets.
 
 | Department | Employee | Age | Salary | Performance Rating |
 |:----------:|:--------:|:---:|:------:|:------------------:|

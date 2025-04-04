@@ -2,7 +2,7 @@
 ## Overview
 Linear regression is a powerful statistical tool that helps identify relationships between variables. Google Sheets makes it easy to create linear regression graphs that visualize these relationships and calculate trend lines. This feature is particularly useful for forecasting, analyzing correlations, and making data-driven decisions.
 
-In this section, we will provide a step-by-step guide for creating linear regression graphs in Google Sheets. To help you follow each step better, we will use the sample data below for this guide.
+In this section, we will provide a step-by-step guide for creating linear regression graphs in Google Sheets. To help you follow each step better, we will use the sample data below for this guide. To use this sample data to follow the guide, simply copy the table below and paste it to your Google Sheets.
 
 | Month | Sales ($) | Marketing Spend ($) |
 |:-----:|:---------:|:-------------------:|
