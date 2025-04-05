@@ -10,7 +10,6 @@ This glossary provides definitions for common terms used throughout this Google 
 | **Conditional Formatting** | A feature that changes the appearance of cells based on their values or other conditions, helping to highlight important data. |
 | **COUNTIF** | A function that counts the number of cells in a range that meet a specific criterion. |
 | **Data Validation** | A feature that restricts the type of data or values that users can enter into a cell, helping maintain data integrity. |
-| **Filter** | A tool that temporarily hides data that doesn't meet specified criteria, allowing users to focus on relevant information. |
 | **Formula** | An expression that calculates values based on the contents of cells or other data, typically beginning with an equals sign (=). |
 | **Function** | A predefined formula that performs calculations using specific values in a particular order, such as SUMIF, AVERAGEIF, or COUNTIF. |
 | **Linear Regression** | A statistical method for modeling the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the data. |

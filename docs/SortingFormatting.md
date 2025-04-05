@@ -25,7 +25,7 @@ Sorting data allows you to organize information in a meaningful way, making patt
 
 ![Basic Sorting](./images_and_gifs/BasicSort.gif)
 
-1. Select the entire data [range](./Glossary.md) (A1:E11 in our example, including headers).
+1. Select the entire data [range](./Glossary.md) that you want to sort including headers if there are headers (e.g., A1:E11).
 2. Click on **Data** in the top menu.
 3. Select **[Sort range](./Glossary.md)** from the dropdown menu.
 
@@ -37,104 +37,77 @@ Sorting data allows you to organize information in a meaningful way, making patt
 6. Choose the sort order (A→Z for ascending, Z→A for descending).
 7. Click **Sort**.
 
+    !!! success "Success"
+        Your data is now organized by sales figures from highest to lowest.
+
 ### [Multi-Level Sorting](./Glossary.md)
 > Scenario: You need to sort products first by category and then by sales within each category.
 
 ![Multi-Level Sorting](./images_and_gifs/MultiLevelSort.gif)
 
-1. Select the entire data range.
+1. Select the entire data range that you want to sort including headers if there are headers (e.g., A1:E11).
 2. Click on **Data** > **Sort range**.
-3. Check **Data has header row**.
-4. For "Sort by," select "Category" and choose A→Z (ascending).
+3. Check **Data has header row** if your data includes column headers.
+4. Select the column you want to sort by first and its sort order (e.g., "Category" and A→Z).
 5. Click **Add another sort column**.
-6. For "Then by," select "Sales" and choose Z→A (descending).
+6. For "Then by," select the column you want to sort by next and its sort order (e.g., "Sales" and Z→A)
 7. Click **Sort**.
 
     !!! success "Success"
         Your data is now organized by category alphabetically, with products in each category sorted from highest to lowest sales.
 
-### Sorting by Color
-If you've applied [conditional formatting](./Glossary.md) or manually colored cells, you can sort by color.
-
-1. Select the data range.
-2. Click on **Data** > **Create a filter**.
-3. Click the [filter](./Glossary.md) button (funnel icon) in the header of the column you want to sort.
-4. Select **Sort by color**.
-5. Choose either **Fill color** or **Text color**.
-6. Select the color you want to prioritize in the sorting.
-
-    !!! warning "Warning"
-        Sorting by color is only available if you have applied colors to cells in the column you're sorting.
-
 ## Formatting Data
 Proper formatting enhances readability and helps highlight important information in your data.
 
-### Basic Formatting
-> Scenario: You want to format the sales figures as currency and highlight the "In Stock" status.
+### Number Formatting
+Google Sheets offers various number formatting options to display your data appropriately.
+> Scenario: You want to format the sales figures as currency.
 
-![Basic Formatting](./images_and_gifs/BasicFormatting.gif)
+![Number Formatting](./images_and_gifs/NumberFormatting.gif)
 
-1. Select the Sales column (C2:C11).
+1. Select the number cells you want to format (e.g., C2:C11).
 2. Click on **Format** in the top menu.
-3. Select **Number** > **Currency**.
+3. Select **Number**.
+4. Choose from options (e.g., **Currency**):  
+    - **Number**: Displays values as general number format with specified decimal places
+    - **Percent**: Displays values as percentages
+    - **Currency**: Displays values with currency symbols
+    - **Date**: Displays values with various date formats
+    - **Time**: Displays values with various time formats
+    - **Custom number format**: Displays values with your own format
+    
+    !!! success "Success"
+        The sales figures are now in the currency format.
 
-    !!! info "Info"
-        You can also use the shortcut by clicking the $ icon in the toolbar.
+### [Conditional formatting](./Glossary.md)
+> Scenario: You want to highlight the "In Stock" status.
 
-4. Select the "In Stock" column (E2:E11).
-5. Click on **Format** > **Conditional formatting**.
-6. In the sidebar that appears, set the following:
-   - "Format cells if..." to "Text is exactly"
-   - Enter "Yes" in the value field
-   - Click on "Formatting style" and choose a green fill color
-7. Click **Done**.
-8. Repeat steps 5-7, but this time set the condition to "Text is exactly" with "No" and choose a red fill color.
+![Conditional Formatting](./images_and_gifs/ConditionalFormatting.gif)
 
-### Creating Alternating Row Colors
-[Alternating row colors](./Glossary.md) can make large datasets easier to read.
+1. Select the cells or the column you want to highlight (e.g., E2:E11).
+2. Click on **Format** in the top menu.
+3. Click on **Conditional formatting**.
+4. In the sidebar that appears, set the following settings:  
+    - Format cells if...: Choose a format rule (e.g., "Text is exactly" > "Yes" in the value field)
+    - Formatting style: Choose a cell style for the cells that meet the format rule (e.g., a green fill colour)
+5. Click **Add another rule** to add more rules, if needed (e.g., "Text is exactly" > "No" in the value field with a red fill colour)
+6. Click **Done**.
 
-![Alternating Row Colors](./images_and_gifs/AlternatingColors.gif)
+    !!! success "Success"
+        The "In Stock" status are now highlighted with a green fill colour for "Yes" and a red fill colour for "No".
+
+### Creating [Alternating Row Colours](./Glossary.md)
+Alternating row colours can make large datasets easier to read.
+
+![Alternating Row Colours](./images_and_gifs/AlternatingColours.gif)
 
 1. Select the entire data range (including headers).
-2. Click on **Format** > **Alternating colors**.
-3. In the sidebar, select a color scheme from the preset options or create a custom one.
+2. Click on **Format** > **Alternating colours**.
+3. In the sidebar, select a colour scheme from the preset options or create a custom one.
 4. Click **Done**.
 
     !!! info "Info"
-        You can customize the header color, odd row color, and even row color separately by clicking on each element in the sidebar.
-
-### Number Formatting Options
-Google Sheets offers various number formatting options to display your data appropriately.
-
-1. Select the cells you want to format.
-2. Click on **Format** > **Number**.
-3. Choose from options such as:  
-    - **Number**: General number format with specified decimal places
-    - **Percent**: Displays values as percentages
-    - **Currency**: Shows values with currency symbols
-    - **Date**: Various date formats
-    - **Time**: Various time formats
-    - **Custom number format**: Create your own format
-
-    !!! info "Info"
-        For dates in our sample data, select column D and apply a date format that matches your preference (e.g., MM/DD/YYYY).
-
-## Creating a Formatted Dashboard
-You can combine sorting and formatting techniques to create an effective dashboard.
-
-### Building a Category Summary
-
-![Creating a Dashboard](./images_and_gifs/Dashboard.gif)
-
-1. Create a summary table in a new location (e.g., G1:I4).
-2. Add headers: "Category", "Total Sales", "Items in Stock".
-3. List unique categories in column G.
-4. Use SUMIF to calculate total sales by category in column H:
-   `=SUMIF($B$2:$B$11,"Electronics",$C$2:$C$11)` for Electronics
-5. Use COUNTIFS to count in-stock items by category in column I:
-   `=COUNTIFS($B$2:$B$11,"Electronics",$E$2:$E$11,"Yes")` for Electronics
-6. Format the Total Sales column as currency.
-7. Apply conditional formatting to highlight categories with high sales.
+        You can customize the header colour, odd row colour, and even row colour separately by clicking on each element in the sidebar.
 
 ## Advanced Formatting Techniques
 
@@ -146,9 +119,9 @@ You can create custom number formats for specific needs.
 1. Select the cells to format.
 2. Click on **Format** > **Number** > **Custom number format**.
 3. Enter a format pattern, such as:
-   - `$#,##0.00 "in sales"` to display "$1,200.00 in sales"
-   - `0.0%` to show percentages with one decimal place
-   - `[>1000]"High";"Low"` to display "High" for values over 1000 and "Low" for others
+    - `$#,##0.00 "in sales"` to display "$1,200.00 in sales"
+    - `0.0%` to show percentages with one decimal place
+    - `[>1000]"High";"Low"` to display "High" for values over 1000 and "Low" for others
 
 ### Using Data Validation
 [Data validation](./Glossary.md) helps maintain data integrity.
@@ -171,8 +144,7 @@ By the end of this section, you will have successfully learned the following:
 - [x] How to sort data using single and multiple criteria
 - [x] How to apply number formatting to different types of data
 - [x] How to use [conditional formatting](./Glossary.md) to highlight important information
-- [x] How to create [alternating row colors](./Glossary.md) for better readability
-- [x] How to build a formatted summary dashboard
+- [x] How to create [alternating row colours](./Glossary.md) for better readability
 - [x] How to implement advanced formatting techniques
 
 Effective sorting and formatting are fundamental skills that transform raw data into meaningful information. By mastering these techniques in Google Sheets, you'll be able to create professional-looking spreadsheets that communicate insights clearly and efficiently. 
