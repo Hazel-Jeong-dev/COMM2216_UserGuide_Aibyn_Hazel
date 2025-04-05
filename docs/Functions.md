@@ -26,7 +26,7 @@ In this section, we will provide a step-by-step guide for you to use these three
 |  Marketing |   Emma   |  33 |  54000 |          4         |
 
 !!! info "Info"
-    If you encounter any error message or if you do not get the same output while following this guide, check our [troubleshooting](./Troubleshooting.md) page. Common error messages when using functions are also mentioned in the "Handling Errors" section at the bottom of this page.
+    If you encounter any error message or if you do not get the same output while following this guide, check our [troubleshooting](./Troubleshooting.md) page. Common error messages when using functions are also mentioned in the "[Handling Errors](https://hazel-jeong-dev.github.io/COMM2216_UserGuide_Aibyn_Hazel/Functions/#handling-errors)" section at the bottom of this page.
 
 ## COUNTIF
 [COUNTIF](./Glossary.md) function can be used when you need to count the number of cells that meet a criterion. For detailed explanation on the parameters used in COUNTIF, visit [Google Sheets Help Center - COUNTIF](https://support.google.com/docs/answer/3093480).
