@@ -26,7 +26,7 @@ In this section, we will provide a step-by-step guide for you to use these three
 |  Marketing |   Emma   |  33 |  54000 |          4         |
 
 ## COUNTIF
-[COUNTIF](./Glossary.md) function can be used when you need to count the number of cells that meet a criterion.
+[COUNTIF](./Glossary.md) function can be used when you need to count the number of cells that meet a criterion. For detailed explanation on the parameters used in COUNTIF, visit [Google Sheets Help Center - COUNTIF](https://support.google.com/docs/answer/3093480).
  > Scenario: You need to count the number of employees in Sales department.
 
 ![COUNTIF demo](./images_and_gifs/COUNTIF.gif)
@@ -58,7 +58,7 @@ COUNTIF also supports [wildcards](./Glossary.md) for partial matching.
 For example, to count departments that start with "M", use: `=COUNTIF(A2:A19,"M*")`
 
 ### Using Multiple Criteria with COUNTIFS
-If you need to count the number of cells based on multiple criteria, you can use the COUNTIFS function.
+If you need to count the number of cells based on multiple criteria, you can use the COUNTIFS function. For detailed explanation on the parameters used in COUNTIFS, visit [Google Sheets Help Center - COUNTIFS](https://support.google.com/docs/answer/3256550?hl=en#).
  > Scenario: You need to count the number of employees in Marketing department with a performance rating of 4.0 or higher.
 
 1. Type `=COUNTIFS()` in a cell.
@@ -70,7 +70,7 @@ If you need to count the number of cells based on multiple criteria, you can use
 
 
 ## SUMIF
-[SUMIF](./Glossary.md) function can be used when you need to add all values in cells that meet a criterion.
+[SUMIF](./Glossary.md) function can be used when you need to add all values in cells that meet a criterion. For detailed explanation on the parameters used in SUMIF, visit [Google Sheets Help Center - SUMIF](https://support.google.com/docs/answer/3093583?hl=en#).
 
  > Scenario: You need to calculate the total salary of Sales department.
 
@@ -91,7 +91,7 @@ If you need to count the number of cells based on multiple criteria, you can use
         This formula will sum the salaries of all employees in Sales department.
 
 ### Using Multiple Criteria with SUMIFS
-If you need to sum values based on multiple criteria, you can use the SUMIFS function.
+If you need to sum values based on multiple criteria, you can use the SUMIFS function. For detailed explanation on the parameters used in SUMIFS, visit [Google Sheets Help Center - SUMIFS](https://support.google.com/docs/answer/3238496?hl=en#).
 
  > Scenario: You need to calculate the total salary of Sales employees who are over 30 years old.
 
@@ -104,7 +104,7 @@ If you need to sum values based on multiple criteria, you can use the SUMIFS fun
         This formula will sum the salaries of all Sales employees who are over 30 years old.
 
 ## AVERAGEIF
-[AVERAGEIF](./Glossary.md) function can be used when you need to calculate the average of values in cells that meet a criterion.
+[AVERAGEIF](./Glossary.md) function can be used when you need to calculate the average of values in cells that meet a criterion. For detailed explanation on the parameters used in AVERAGEIF, visit [Google Sheets Help Center - AVERAGEIF](https://support.google.com/docs/answer/3256529?hl=en#).
 
  > Scenario: You need to find the average performance rating of IT department.
 
@@ -125,7 +125,7 @@ If you need to sum values based on multiple criteria, you can use the SUMIFS fun
         This formula will calculate the average performance rating of IT employees.
 
 ### Using Multiple Criteria with AVERAGEIFS
-If you need to calculate averages based on multiple criteria, you can use the AVERAGEIFS function.
+If you need to calculate averages based on multiple criteria, you can use the AVERAGEIFS function. For detailed explanation on the parameters used in AVERAGEIFS, visit [Google Sheets Help Center - AVERAGEIFS](https://support.google.com/docs/answer/3256534?hl=en#).
 
  > Scenario: You need to find the average salary of Marketing employees with a performance rating of 4.0 or higher.
 
@@ -136,25 +136,6 @@ If you need to calculate averages based on multiple criteria, you can use the AV
 
     !!! success "Success"
         This formula will calculate the average salary of Marketing employees with a performance rating of 4.0 or higher.
-
-## Creating a Summary Dashboard
-You can combine these functions to create a powerful summary dashboard for your data:
-
-1. Create a summary table with department names in column G.
-2. In column H, use COUNTIF to count employees per department.
-3. In column I, use SUMIF to calculate total salary per department.
-4. In column J, use AVERAGEIF to find average performance rating per department.
-5. In column K, calculate average salary by dividing total salary by employee count.
-
-Example:
-
-| Department | Employee Count | Total Salary | Avg Performance | Avg Salary |
-|:----------:|:--------------:|:------------:|:---------------:|:----------:|
-|    Sales   |        5       |    280000    |       4.26      |    56000   |
-|  Marketing |        5       |    265000    |       4.06      |    53000   |
-|     IT     |        4       |    255000    |       4.65      |    63750   |
-|     HR     |        4       |    194000    |       3.95      |    48500   |
-
 
 ## Advanced Usage Tips
 
@@ -186,7 +167,6 @@ By the end of this section, you will have successfully learned the following:
 - [x] How to use [COUNTIF](./Glossary.md) to count cells that meet specific criteria
 - [x] How to use [SUMIF](./Glossary.md) to sum values based on criteria
 - [x] How to use [AVERAGEIF](./Glossary.md) to calculate averages based on criteria
-- [x] How to create summary dashboards using these [functions](./Glossary.md)
 - [x] How to handle errors
 
 These conditional functions are essential tools for data analysis in Google Sheets. They allow you to quickly extract meaningful insights from your data without the need for complex formulas or programming. By mastering these functions, you'll be able to analyze data more efficiently and make better-informed decisions.
