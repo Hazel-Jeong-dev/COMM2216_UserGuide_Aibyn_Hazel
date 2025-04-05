@@ -17,6 +17,9 @@ In this section, we will provide a step-by-step guide for sorting and formatting
 | Mouse | Electronics | 75 | 2023-01-08 | Yes |
 | Filing Cabinet | Furniture | 420 | 2023-01-20 | No |
 
+!!! info "Info"
+    If you encounter any error message or if you do not get the same output while following this guide, check our [troubleshooting](./Troubleshooting.md) page.
+
 ## Sorting Data
 Sorting data allows you to organize information in a meaningful way, making patterns and trends easier to identify.
 

@@ -19,6 +19,9 @@ In this section, we will provide a step-by-step guide for creating linear regres
 |   11  |   25800   |         2900        |
 |   12  |   27500   |         3100        |
 
+!!! info "Info"
+    If you encounter any error message or if you do not get the same output while following this guide, check our [troubleshooting](./Troubleshooting.md) page.
+
 ## Creating a Scatter Plot
 The first step in creating a linear regression graph is to create a [scatter plot](./Glossary.md) of your data.
 
