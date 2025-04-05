@@ -74,10 +74,10 @@ You can further customize your graph to make it more visually appealing and info
 ### Modifying Chart Elements
 In the Chart Editor, under the **Customize** tab, you can modify:
 
-* **Chart style**: Change the background color, border color, and font.
+* **Chart style**: Change the background colour, border colour, and font.
 * **Chart & axis titles**: Add or edit titles for your chart and axes.
-* **Series**: Change the color, point size, and shape of your data points.
-* **Trendline**: Adjust the color, thickness, and style of your trendline.
+* **Series**: Change the colour, point size, and shape of your data points.
+* **Trendline**: Adjust the colour, thickness, and style of your trendline.
 
 ### Adding a Chart Title
 1. Click on **Chart & axis titles**.

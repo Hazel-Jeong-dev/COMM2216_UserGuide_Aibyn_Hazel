@@ -4,7 +4,7 @@ This glossary provides definitions for common terms used throughout this Google 
 
 | **Term** | **Definition** |
 |----------|----------------|
-| **Alternating Colors** | A formatting feature in Google Sheets that applies different background colors to alternate rows or columns, improving readability of large datasets. |
+| **Alternating Colours** | A formatting feature in Google Sheets that applies different background colours to alternate rows or columns, improving readability of large datasets. |
 | **AVERAGEIF** | A function that calculates the average of values in a range that meet a specific criterion. |
 | **Cell Reference** | An identifier that points to a specific cell in a spreadsheet, typically expressed as a column letter followed by a row number (e.g., A1). |
 | **Conditional Formatting** | A feature that changes the appearance of cells based on their values or other conditions, helping to highlight important data. |
