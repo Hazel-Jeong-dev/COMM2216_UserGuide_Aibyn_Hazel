@@ -2,7 +2,7 @@
 ## Overview
 Organizing and presenting data effectively is essential for data analysis. Google Sheets provides powerful tools for sorting and formatting data that can transform raw information into clear, actionable insights. This section will guide you through the process of sorting data and applying formatting to enhance readability and analysis.
 
-In this section, we will provide a step-by-step guide for sorting and formatting data in Google Sheets. To help you follow each step better, we will use the sample data below for this guide. To use this sample data to follow the guide, simply copy the table below and paste it to your Google Sheets. To create a new Google Sheets, click [here](https://docs.google.com/spreadsheets/create).
+In this section, we will provide a step-by-step guide for sorting and formatting data in Google Sheets. To help you follow each step better, we will use the sample data below for this guide. To use this sample data to follow the guide, simply copy the table below and paste it intto your Google Sheets. To create a new Google Sheets, click [here](https://docs.google.com/spreadsheets/create).
 
 | Product | Category | Sales | Date | In Stock |
 |:-------:|:--------:|:-----:|:----:|:--------:|
@@ -150,4 +150,4 @@ By the end of this section, you will have successfully learned the following:
 - [x] How to create [alternating row colours](./Glossary.md) for better readability
 - [x] How to implement advanced formatting techniques
 
-Effective sorting and formatting are fundamental skills that transform raw data into meaningful information. By mastering these techniques in Google Sheets, you'll be able to create professional-looking spreadsheets that communicate insights clearly and efficiently. 
+Effective sorting and formatting are fundamental skills that transform raw data into meaningful information. By mastering these techniques in Google Sheets, you'll be able to create professional spreadsheets that communicate insights clearly and efficiently. 
