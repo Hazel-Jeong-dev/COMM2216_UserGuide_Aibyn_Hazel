@@ -21,4 +21,4 @@ This section provides solutions for common issues you might encounter when using
     Always make a backup copy of important spreadsheets before attempting significant changes or troubleshooting steps that might alter your data.
 
 !!! info "Info"
-    For persistent issues not covered in this troubleshooting guide, visit the [Google Sheets Help Center](https://support.google.com/docs/topic/9054603) or use the **Help** menu in Google Sheets to search for specific error messages. 
+    For persistent issues not covered in this troubleshooting guide, visit the [Google Sheets Help Center](https://support.google.com/docs/topic/9054603) or use the **Help** menu in Google Sheets to search for specific xerror messages. 
