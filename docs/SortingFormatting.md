@@ -126,8 +126,8 @@ You can create custom number formats for specific needs.
     - `0.0%` to show percentages with one decimal place
     - `[>1000]"High";"Low"` to display "High" for values over 1000 and "Low" for others
 
-### Using Data Validation
-[Data validation](./Glossary.md) helps maintain data integrity.
+### Using [Data Validation](./Glossary.md)
+Data validation helps maintain data integrity.
 
 ![Data Validation](./images_and_gifs/DataValidation.gif)
 
