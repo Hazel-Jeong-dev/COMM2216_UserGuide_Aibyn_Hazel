@@ -28,8 +28,8 @@ In this section, we will provide a step-by-step guide for you to use these three
 !!! info "Info"
     If you encounter any error message or if you do not get the same output while following this guide, check our [troubleshooting](./Troubleshooting.md) page. Common error messages when using functions are also mentioned in the "[Handling Errors](https://hazel-jeong-dev.github.io/COMM2216_UserGuide_Aibyn_Hazel/Functions/#handling-errors)" section at the bottom of this page.
 
-## COUNTIF
-[COUNTIF](./Glossary.md) function can be used when you need to count the number of cells that meet a criterion. For detailed explanation on the parameters used in COUNTIF, visit [Google Sheets Help Center - COUNTIF](https://support.google.com/docs/answer/3093480).
+## [COUNTIF](./Glossary.md)
+COUNTIF function can be used when you need to count the number of cells that meet a criterion. For detailed explanation on the parameters used in COUNTIF, visit [Google Sheets Help Center - COUNTIF](https://support.google.com/docs/answer/3093480).
  > Scenario: You need to count the number of employees in Sales department.
 
 ![COUNTIF demo](./images_and_gifs/COUNTIF.gif)
@@ -41,7 +41,7 @@ In this section, we will provide a step-by-step guide for you to use these three
 5. Press **Enter**.
 
     !!! success "Success"
-        This formula will count the number of employees in Sales department.
+        This [formula](./Glossary.md) will count the number of employees in Sales department.
 
 ### Using Comparison Operators with COUNTIF
 You can use comparison operators (<, >, =, <=, >=, <>) with COUNTIF to create more complex criteria.
@@ -52,8 +52,8 @@ You can use comparison operators (<, >, =, <=, >=, <>) with COUNTIF to create mo
     !!! warning "Warning"
         When using comparison operators, make sure to enclose the entire criterion in quotation marks, including the operator.
 
-### Using Wildcards with COUNTIF
-COUNTIF also supports [wildcards](./Glossary.md) for partial matching.
+### Using [Wildcards](./Glossary.md) with COUNTIF
+COUNTIF also supports wildcards for partial matching.
 
 * `*` - matches any sequence of characters
 * `?` - matches any single character
@@ -72,8 +72,8 @@ If you need to count the number of cells based on multiple criteria, you can use
         This formula will count the number of Marketing employees with a performance rating of 4.0 or higher.
 
 
-## SUMIF
-[SUMIF](./Glossary.md) function can be used when you need to add all values in cells that meet a criterion. For detailed explanation on the parameters used in SUMIF, visit [Google Sheets Help Center - SUMIF](https://support.google.com/docs/answer/3093583?hl=en#).
+## [SUMIF](./Glossary.md)
+SUMIF function can be used when you need to add all values in cells that meet a criterion. For detailed explanation on the parameters used in SUMIF, visit [Google Sheets Help Center - SUMIF](https://support.google.com/docs/answer/3093583?hl=en#).
 
  > Scenario: You need to calculate the total salary of Sales department.
 
@@ -106,8 +106,8 @@ If you need to sum values based on multiple criteria, you can use the SUMIFS fun
     !!! success "Success"
         This formula will sum the salaries of all Sales employees who are over 30 years old.
 
-## AVERAGEIF
-[AVERAGEIF](./Glossary.md) function can be used when you need to calculate the average of values in cells that meet a criterion. For detailed explanation on the parameters used in AVERAGEIF, visit [Google Sheets Help Center - AVERAGEIF](https://support.google.com/docs/answer/3256529?hl=en#).
+## [AVERAGEIF](./Glossary.md)
+AVERAGEIF function can be used when you need to calculate the average of values in cells that meet a criterion. For detailed explanation on the parameters used in AVERAGEIF, visit [Google Sheets Help Center - AVERAGEIF](https://support.google.com/docs/answer/3256529?hl=en#).
 
  > Scenario: You need to find the average performance rating of IT department.
 
@@ -142,8 +142,8 @@ If you need to calculate averages based on multiple criteria, you can use the AV
 
 ## Advanced Usage Tips
 
-### Using Cell References for Criteria
-Instead of typing criteria directly into your formulas, you can [reference cells](./Glossary.md) containing your criteria:
+### Using [Cell References](./Glossary.md) for Criteria
+Instead of typing criteria directly into your formulas, you can reference cells containing your criteria:
 
 1. Type your criterion in a cell (e.g., type "Sales" in cell G3).
 2. In your formula, reference that cell instead of typing the criterion (e.g., `=COUNTIF(A2:A19,G3)` instead of `=COUNTIF(A2:A19,"Sales")`).
@@ -172,4 +172,4 @@ By the end of this section, you will have successfully learned the following:
 - [x] How to use [AVERAGEIF](./Glossary.md) to calculate averages based on criteria
 - [x] How to handle errors
 
-These conditional functions are essential tools for data analysis in Google Sheets. They allow you to quickly extract meaningful insights from your data without the need for complex formulas or programming. By mastering these functions, you'll be able to analyze data more efficiently and make better-informed decisions.
+These conditional [functions](./Glossary.md) are essential tools for data analysis in Google Sheets. They allow you to quickly extract meaningful insights from your data without the need for complex [formulas](./Glossary.md) or programming. By mastering these functions, you'll be able to analyze data more efficiently and make better-informed decisions.

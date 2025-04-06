@@ -22,8 +22,8 @@ In this section, we will provide a step-by-step guide for creating linear regres
 !!! info "Info"
     If you encounter any error message or if you do not get the same output while following this guide, check our [troubleshooting](./Troubleshooting.md) page.
 
-## Creating a Scatter Plot
-The first step in creating a linear regression graph is to create a [scatter plot](./Glossary.md) of your data.
+## Creating a [Scatter Plot](./Glossary.md)
+The first step in creating a linear regression graph is to create a scatter plot of your data.
 
 ![Creating a Scatter Plot](./images_and_gifs/ScatterPlot.gif)
 
@@ -41,8 +41,8 @@ The first step in creating a linear regression graph is to create a [scatter plo
     !!! warning "Warning"
         If the axes are reversed, you can change them by clicking on the **Series** section in the Chart Editor and adjusting the X-axis and Y-axis data ranges.
 
-## Adding a Linear Regression Trendline
-Once you have created your scatter plot, you can add a linear regression [trendline](./Glossary.md).
+## Adding a Linear Regression [Trendline](./Glossary.md)
+Once you have created your scatter plot, you can add a linear regression trendline.
 
 ![Adding a Trendline](./images_and_gifs/AddTrendline.gif)
 
@@ -56,8 +56,8 @@ Once you have created your scatter plot, you can add a linear regression [trendl
     !!! info "Info"
         Google Sheets offers other trendline types such as polynomial, exponential, and logarithmic. For a simple linear regression, select "Linear".
 
-## Displaying the Regression Equation and R² Value
-To make your linear regression graph more informative, you can display the equation and [R² value](./Glossary.md).
+## Displaying the Regression Equation and [R² Value](./Glossary.md)
+To make your linear regression graph more informative, you can display the equation and R² value.
 
 ![Displaying Equation and R²](./images_and_gifs/EquationR2.gif)
 

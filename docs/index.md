@@ -17,7 +17,7 @@
  With this guide, you will be able to:  
 
  * Sort and format data in a table
- * Use frequently used [functions](./Glossary.md) in data analysis such as COUNTIF, SUMIF, and AVERAGEIF
+ * Use frequently used [functions](./Glossary.md) in data analysis such as [COUNTIF](./Glossary.md), [SUMIF](./Glossary.md), and [AVERAGEIF](./Glossary.md)
  * Create [linear regression](./Glossary.md) graphs
 
 ## Typographical Conventions
