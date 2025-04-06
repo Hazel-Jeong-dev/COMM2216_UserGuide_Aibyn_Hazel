@@ -99,7 +99,7 @@ Google Sheets offers various number formatting options to display your data appr
     !!! success "Success"
         The "In Stock" status are now highlighted with a green fill colour for "Yes" and a red fill colour for "No".
 
-### Creating [Alternating Row Colours](./Glossary.md)
+### [Alternating Row Colours](./Glossary.md)
 Alternating row colours can make large datasets easier to read.
 
 ![Alternating Row Colours](./images_and_gifs/AlternatingColours.gif)
@@ -126,7 +126,7 @@ You can create custom number formats for specific needs.
     - `0.0%` to show percentages with one decimal place
     - `[>1000]"High";"Low"` to display "High" for values over 1000 and "Low" for others
 
-### Using [Data Validation](./Glossary.md)
+### [Data Validation](./Glossary.md)
 Data validation helps maintain data integrity.
 
 ![Data Validation](./images_and_gifs/DataValidation.gif)
