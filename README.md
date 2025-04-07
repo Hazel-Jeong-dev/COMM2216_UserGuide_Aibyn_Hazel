@@ -41,7 +41,7 @@ We also used typographical conventions throughout the guide to enhance readabili
 * `Monospace text` represents formulas, functions, or text you need to type
 * *Italic text* highlights important new concepts or terms
 * > Blockquotes provide examples or sample scenarios
-* [Highlighted text](./Glossary.md) leads to our Glossary page or other helpful websites
+* [Highlighted text](https://hazel-jeong-dev.github.io/COMM2216_UserGuide_Aibyn_Hazel/Glossary/) leads to our Glossary page or other helpful websites
 
 ### Admonitions
 Material for MkDocs supports admonition features. We utilized this to warn users, give users helpful tips, and indicate users expected output.
